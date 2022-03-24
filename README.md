@@ -2,7 +2,8 @@
 Allow RDP from a Windows or other computer directly to your Kali Linux device
 <br>
 <h2>Use this script:</h2>
-sudo wget https://github.com/tobyarnett/kalirdp.sh<br>
+sudo git clone https://github.com/tobyarnett/kalirdp.sh<br>
+cd kalirdp<br>
 sudo chmod +x kalirdp.sh<br>
 sudo ./kalirdp.sh<br>
 sudo systemctl enable xrdp --now<br>
